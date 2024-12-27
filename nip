@@ -1,0 +1,10 @@
+#!/bin/env bash
+
+set -e
+
+pushd ~/Documents/declarative_ubuntu/
+nvim arsenier.nix
+
+nix-env -irf arsenier.nix
+
+popd

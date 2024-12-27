@@ -1,0 +1,11 @@
+#!/bin/env bash
+
+set -e
+
+NAME=$(gh api user -q '.name')
+EMAIL=$(gh api user -q '.email')
+
+echo "Setting up user with name: $NAME and email: $EMAIL"
+
+git config --global user.name $NAME
+git config --global user.email $EMAIL
