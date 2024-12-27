@@ -14,5 +14,6 @@ with import <nixpkgs> {}; [
 	# nerd-fonts
 	nerd-fonts.terminess-ttf
 	nerd-fonts.fira-code
+  # https://github.com/NvChad/NvChad/issues/22
   nerd-fonts.jetbrains-mono # <<< use with nvchad
 ]
