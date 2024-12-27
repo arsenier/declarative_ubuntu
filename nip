@@ -1,5 +1,7 @@
 #!/bin/env bash
 
+# https://ianthehenry.com/posts/how-to-learn-nix/declarative-user-environment/
+
 set -e
 
 pushd ~/Documents/declarative_ubuntu/
