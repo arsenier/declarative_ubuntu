@@ -1,0 +1,10 @@
+#!/bin/env bash
+
+FONT_CONFIG_PATH="/home/$USER/.config/fontconfig/conf.d/"
+
+mkdir -p $FONT_CONFIG_PATH
+
+# https://stackoverflow.com/questions/57981225/how-to-install-fonts-with-nix-in-ubuntu
+
+cp 10-nix-fonts.conf $FONT_CONFIG_PATH
+

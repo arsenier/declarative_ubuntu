@@ -8,6 +8,7 @@ with import <nixpkgs> {}; [
 	tldr
 	tmux
 	gh
+	bat
 
 	# nerd-fonts
 	nerd-fonts.terminess-ttf
