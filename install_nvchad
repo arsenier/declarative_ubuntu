@@ -1,3 +1,6 @@
 #!/bin/env bash
 
+# https://github.com/NvChad/base46/issues/166
+rm -rf ~/.local/share/nvim/ ~/.cache/nvim
+
 git clone -b v2.0 https://github.com/NvChad/NvChad ~/.config/nvim --depth 1

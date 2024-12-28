@@ -1,4 +1,4 @@
-with import <nixpkgs> {}; [
+with import <nixpkgs> {};[
 	neovim
 	telegram-desktop
 	floorp
@@ -10,6 +10,11 @@ with import <nixpkgs> {}; [
 	gh
 	bat
 	chezmoi
+  btop
+  zoxide
+  lsd
+  ranger
+  ueberzug
 
 	# nerd-fonts
 	nerd-fonts.terminess-ttf
